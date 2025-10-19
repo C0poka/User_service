@@ -23,7 +23,9 @@ public class User {
 
     public User() {}
 
-    // Геттеры и сеттеры
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Long getId() {
         return id;
