@@ -3,8 +3,6 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-
-
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/user_service_db</property>
         <property name="hibernate.connection.username">user_service_user</property>
@@ -16,6 +14,7 @@
         <property name="hibernate.format_sql">true</property>
 
         <property name="hibernate.current_session_context_class">thread</property>
+
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
